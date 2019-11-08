@@ -352,8 +352,12 @@ footer {
 .backdrop h2:hover {
   color: #454A59;
 }
+.backdrop h2 {
+  margin: 2%;
+}
 .backdrop p {
   font-size: 3rem;
+  margin-left: 5%;
 }
 .backdrop input {
   width: 45%;
@@ -374,4 +378,7 @@ footer {
 .backdrop .sub:hover {
   color: #F1F1F1;
   background: #454A59;
+}
+.backdrop .contact {
+  text-align: center;
 }
