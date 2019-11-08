@@ -305,6 +305,7 @@ footer {
   justify-content: center;
   align-items: center;
   flex-flow: row nowrap;
+  border: 2px solid black;
 }
 .home .walk .walk-text .btn:hover {
   color: black;
@@ -370,10 +371,12 @@ footer {
   color: #454A59;
   background: #F1F1F1;
   font-size: 3rem;
+  border: 2px solid #F1F1F1;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: row nowrap;
+  margin-left: 42%;
 }
 .backdrop .sub:hover {
   color: #F1F1F1;
