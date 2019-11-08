@@ -324,3 +324,19 @@ footer {
     width: 100%;
   }
 }
+.backdrop {
+  background-image: url(/img/backdrop.jpg);
+  height: 100vh;
+}
+.backdrop p,
+.backdrop h1,
+.backdrop a {
+  color: #454A59;
+}
+.backdrop p {
+  font-size: 3rem;
+}
+.backdrop input {
+  width: 45%;
+  margin: 3%;
+}
