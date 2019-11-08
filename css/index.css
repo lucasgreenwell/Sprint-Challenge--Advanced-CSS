@@ -164,6 +164,7 @@ p {
   display: flex;
   align-items: center;
   flex-direction: column;
+  margin-bottom: 1%;
 }
 .navParent h1 {
   font-size: 5rem;
@@ -230,6 +231,22 @@ footer {
 }
 .home .walk .walk-text p {
   margin-bottom: 26px;
+}
+.home .walk .walk-text .btn {
+  border-radius: 8%;
+  width: 15rem;
+  height: 3rem;
+  color: white;
+  background: black;
+  font-size: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row nowrap;
+}
+.home .walk .walk-text .btn:hover {
+  color: black;
+  background: white;
 }
 .home .walk .walk-img {
   width: 46%;

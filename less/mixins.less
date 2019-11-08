@@ -1,1 +1,24 @@
 // Mixins Here
+.flex-style(@j, @a, @f){
+    display: flex;
+    justify-content: @j;
+    align-items: @a;
+    flex-flow: @f;
+}
+
+//come on thats pretty freaking cool
+
+.btn-maker(@height, @width, @color1, @color2){
+    border-radius: 8%;
+    width: @width;
+    height: @height;
+    color: @color1;
+    background: @color2;
+    font-size: (@height - 1);
+    .flex-style(center, center, row nowrap);
+    
+    &:hover{
+        color: @color2;
+        background: @color1;
+    }
+}
