@@ -176,9 +176,10 @@ p {
 .navParent h1 {
   font-size: 5rem;
   margin-bottom: 2%;
+  color: #F1F1F1;
 }
 .navParent h1:hover {
-  color: white;
+  color: crimson;
 }
 .navParent nav {
   display: flex;
@@ -192,11 +193,11 @@ p {
 }
 .navParent nav a {
   text-decoration: none;
-  color: #454A59;
+  color: #F1F1F1;
   font-size: 2rem;
 }
 .navParent nav a:hover {
-  color: white;
+  color: crimson;
 }
 @media (max-width: 500px) {
   .navParent nav a {
@@ -342,8 +343,13 @@ footer {
   height: 100vh;
 }
 .backdrop p,
-.backdrop h1,
-.backdrop a {
+.backdrop a,
+.backdrop h2 {
+  color: #F1F1F1;
+}
+.backdrop p:hover,
+.backdrop a:hover,
+.backdrop h2:hover {
   color: #454A59;
 }
 .backdrop p {
@@ -352,4 +358,20 @@ footer {
 .backdrop input {
   width: 45%;
   margin: 3%;
+}
+.backdrop .sub {
+  border-radius: 8%;
+  width: 15rem;
+  height: 4rem;
+  color: #454A59;
+  background: #F1F1F1;
+  font-size: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row nowrap;
+}
+.backdrop .sub:hover {
+  color: #F1F1F1;
+  background: #454A59;
 }
